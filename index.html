@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="navbar__container">
+      <!-- logo -->
+      <a href="#" class="navbar__logo">
+        <i class='bx bx-shopping-bag navbar__logo-icon'></i>
+        <span class="navbar__logo-text animate__animated animate__flash">Shoping Cart</span>
+      </a>
+
+      <!-- navegación -->
+      <nav class="navbar__nav">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="about.html" class="navbar__link">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="contact.html" class="navbar__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- menu boton -->
+      <div class="navbar__btn">
+        <button id="navbarBtn" class="navbar__btn-link">
+          <i class='bx bx-menu navbar__logo-icon'></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- seccion de sobre nosotros -->
+  <section class="about">
+    <div class="about__container">
+      <div class="about__content">
+        <h1 class="about__title">About Us</h1>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem, quisquam.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrapper">
+    <!-- contenido principal -->
+    <div class="wrapper__container">
+      <div class="wrapper__content">
+        <h2 class="wrapper__title">Our Products</h2>
+
+        <!-- aquí se agregaran los productos -->
+        <div id="wrapper-products" class="wrapper__products"></div>
+
+      </div>
+    </div>
+
+    <!-- carrito de compras -->
+    <aside class="wrapper__sidebar">
+      <div class="wrapper__sidebar-cart">
+        <h3 class="wrapper__sidebar-cart-title">Your Cart</h3>
+
+        <!-- aquí se agregaran los productos al carrito -->
+        <div id="wrapper-cart" class="wrapper__sidebar-cart-items"></div>
+
+        <!-- aquí se mostrará el total del carrito -->
+        <div class="wrapper__sidebar-cart-total">
+          <span class="wrapper__sidebar-cart-total-text">Total:</span>
+          <span id="cart-total" class="wrapper__sidebar-cart-total-price">$0</span>
+        </div>
+
+        <!-- botón de pagar -->
+        <div class="wrapper__sidebar-cart-btn">
+          <button id="checkout" class="wrapper__sidebar-cart-btn-link">
+            <i class='bx bx-shopping-bag'></i>
+            <span class="wrapper__sidebar-cart-btn-text">Checkout</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__copy">
+      <p class="footer__copy-text">
+        <i class='bx bx-shopping-bag footer__logo-icon'></i> <span class="footer__logo-text">Shoping Cart</span>&copy;
+        2022.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
