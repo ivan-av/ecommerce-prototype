@@ -30,24 +30,24 @@ navbarBtn.addEventListener('click', function (e) {
 const products = [
   {
     id: 1,
-    name: 'Product 1',
-    price: 100,
-    image: 'https://picsum.photos/250/250?random=1',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
+    name: 'Madera de pino',
+    price: 300,
+    image: 'https://images.unsplash.com/photo-1531824475211-72594993ce2a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&h=250',
+    description: 'Madera aserrada de 2da calidad, destinada a construcción (1 inch x 30 cm x 2.5 m).'
   },
   {
     id: 2,
-    name: 'Product 2',
-    price: 200,
-    image: 'https://picsum.photos/250/250?random=2',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
+    name: 'Madera de nogal',
+    price: 1800,
+    image: 'https://images.unsplash.com/photo-1422246654994-34520d5a0340?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&h=250',
+    description: 'Madera aserrada de 1ra calidad, ideal para decoraciones (1 inch x 30 cm x 2.5 m).'
   },
   {
     id: 3,
-    name: 'Product 3',
-    price: 300,
-    image: 'https://picsum.photos/250/250?random=3',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.'
+    name: 'Triplay',
+    price: 1500,
+    image: 'https://images.unsplash.com/photo-1604916932991-eeb07b40bdcf?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&h=250',
+    description: 'Triplay con distintas chapas, ideal para acabados y tarimas (18 mm x 1.22 x 2.44 m).'
   }
 ]
 
