@@ -51,7 +51,7 @@ const products = [
   },
   {
     id: 4,
-    name: 'Chapa de melamina',
+    name: 'Melamina alta presión',
     price: 600,
     image: 'https://images.unsplash.com/photo-1639593051524-3dc5dcfd7a27?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&h=250',
     description: 'Lámina de plástico decorativa con distintos diseños, excelente para el acabado de interiores y muebles'
