@@ -184,7 +184,8 @@ body {
 
 .wrapper__sidebar {
   padding: 20px;
-  background-color: rgb(245, 246, 253);
+  background-color: rgb(241, 243, 255);
+  border-radius: 5px;
   /* border: 1px solid lightgreen; */
 }
 

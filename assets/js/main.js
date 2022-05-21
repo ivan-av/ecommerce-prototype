@@ -173,7 +173,7 @@ const checkout = document.getElementById('checkout')
 
 checkout.addEventListener('click', function (e) {
   if(e.target.closest('.wrapper__sidebar-cart-btn-link')) {
-    alert('Gracias por tu compra')
+    alert('¡Gracias por tu compra!')
     cart = []
     renderCart()
   }
